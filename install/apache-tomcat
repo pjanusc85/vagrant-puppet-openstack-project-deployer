@@ -53,8 +53,8 @@ fi
 # The following variables can be overwritten in $DEFAULT
 
 # Run Tomcat 6 as this user ID and group ID
-TOMCAT7_USER=truste
-TOMCAT7_GROUP=truste
+TOMCAT7_USER=linuxuser
+TOMCAT7_GROUP=linuxuser
 
 # The first existing directory is used for JAVA_HOME (if JAVA_HOME is not
 # defined in $DEFAULT)
@@ -71,10 +71,10 @@ done
 export JAVA_HOME
 
 # Directory where the Tomcat 7 binary distribution resides
-CATALINA_HOME=/home/truste/$NAME
+CATALINA_HOME=/home/linuxuser/$NAME
 
 # Directory for per-instance configuration files and webapps
-CATALINA_BASE=/home/truste/$NAME
+CATALINA_BASE=/home/linuxuser/$NAME
 
 # Use the Java security manager? (yes/no)
 TOMCAT7_SECURITY=no
