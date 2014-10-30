@@ -1,9 +1,4 @@
-# Vagrant Project Deployer Skeleton
-
-##The Big Idea
-The idea isto have all project deployment configuration managed by the VCS and provide easy tools for auto-deployment. 
-
-We have 2 providers: AWS and OpenStack. In future we could have multiple like Google Compute Engine.
+# Vagrant Project Deployer Skeleton for OpenStack cluster
 
 Provisioning can be done in multiple ways, puppet is used here. But we should be agnostic and if we like ansible/chef/CFEngine, we should be able to use that.
 
