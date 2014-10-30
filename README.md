@@ -5,16 +5,5 @@ Provisioning can be done in multiple ways, puppet is used here. But we should be
 ##Tools Used
 * [vagrant](http://www.vagrantup.com/)
 * [vagrant-openstack](https://github.com/cloudbau/vagrant-openstack-plugin)
-* [vagrant-aws](https://github.com/mitchellh/vagrant-aws)
 * [puppet](https://docs.puppetlabs.com/puppet/3.7/reference/lang_summary.html)
 
-
-##Usage
-A typical usage of this project will constitute the following steps:
-1. Clone this project
-2. Add war files into the deploy/{env} folder
-3. Update manifests/site.pp to add to the war deployment instructions
-4. Create a jenkins project, and add promotions that can provision, destroy and create a new node fore you.
-
-##Limitations
-1. The present aws plugin only supports elb, so if you have dns resolved to an elastic-ip, make sure you assign the machine to the ealstic-ip in AWS console.
